@@ -6738,12 +6738,6 @@ CONFIG_DEBUG_SNAPSHOT=y
 CONFIG_DEBUG_SNAPSHOT_USER_MODE=y
 CONFIG_DEBUG_SNAPSHOT_CALLSTACK=4
 CONFIG_SND_USB_AUDIO=y
-#
+
 # KernelSU
-#
-#
-# KernelSU - SUSFS
-#
-# end of KernelSU - SUSFS
-# end of KernelSU
-# end of Device Drivers
+CONFIG_KSU=n
