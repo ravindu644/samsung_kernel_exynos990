@@ -1,6 +1,7 @@
 #!/bin/bash
 
 touch .scmversion
+git submodule update --init --recursive
 
 abort()
 {
